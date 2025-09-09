@@ -23,8 +23,3 @@ v: 2
 badger:
   compression: snappy
   numgoroutines: 16
-  
-# Enable ACLs (Access Control Lists)
-acl:
-  enabled: true
-  secret_file: "/dgraph/config/hmac_secret"
