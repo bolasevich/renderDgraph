@@ -10,16 +10,18 @@ http_port: 8080
 
 # Alpha configuration
 alpha:
-  lru_mb: 1024
+  lru_mb: 2048
 
 # Security settings (adjust as needed)
-whitelist: 32.219.125.112/32
+# Add to dgraph-config.yml
+security:
+  whitelist: "32.219.125.112/32"
 
 # Enable ACLs (Access Control Lists)
 acl:
   enabled: true
   secret_file: "/dgraph/config/hmac_secret"
-  
+
 # Logging
 logtostderr: true
 v: 2
@@ -27,4 +29,4 @@ v: 2
 # Performance tuning for cloud deployment
 badger:
   compression: snappy
-  numgoroutines: 8
+  numgoroutines: 16
