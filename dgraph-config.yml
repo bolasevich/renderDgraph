@@ -13,7 +13,7 @@ alpha:
   lru_mb: 1024
 
 # Security settings (adjust as needed)
-whitelist: 0.0.0.0/0
+whitelist: 32.219.125.112/32
 
 # Logging
 logtostderr: true
@@ -22,4 +22,4 @@ v: 2
 # Performance tuning for cloud deployment
 badger:
   compression: snappy
-  numgoroutines: 8
+  numgoroutines: 16
