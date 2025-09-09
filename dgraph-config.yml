@@ -13,8 +13,13 @@ alpha:
   lru_mb: 1024
 
 # Security settings (adjust as needed)
-whitelist: 0.0.0.0/0
+whitelist: 32.219.125.112/32
 
+# Enable ACLs (Access Control Lists)
+acl:
+  enabled: true
+  secret_file: "/dgraph/config/hmac_secret"
+  
 # Logging
 logtostderr: true
 v: 2
