@@ -10,7 +10,7 @@ http_port: 8080
 
 # Alpha configuration
 alpha:
-  lru_mb: 1024
+  lru_mb: 2048
 
 # Security settings (adjust as needed)
 whitelist: 32.219.125.112/32
@@ -23,7 +23,3 @@ v: 2
 badger:
   compression: snappy
   numgoroutines: 16
-  
-acl:
-  enabled: true
-  secret_file: "/dgraph/config/hmac_secret"
