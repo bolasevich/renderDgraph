@@ -25,4 +25,4 @@ badger:
   numgoroutines: 16
 
 graphql:
-  lambda_url: "https://renderdgraphlambda.onrender.com/graphql-worker"
+  lambda_url: "https://dgraph-lambda.onrender.com/graphql-worker"
