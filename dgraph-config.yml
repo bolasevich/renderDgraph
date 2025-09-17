@@ -19,7 +19,7 @@ whitelist: 32.219.125.112/32
 logtostderr: true
 v: 2
 
-# Performance tuning for cloud deployment
+# Performance tuning for cloud deployments
 badger:
   compression: snappy
   numgoroutines: 16
