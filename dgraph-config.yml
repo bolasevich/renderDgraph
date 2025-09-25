@@ -21,6 +21,8 @@ v: 2
 
 # Performance tuning for cloud deployments
 badger:
+  dir: /dgraph/data/p
+  value_dir: /dgraph/data/w
   compression: snappy
   numgoroutines: 16
 
