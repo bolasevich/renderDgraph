@@ -8,7 +8,7 @@ port_offset: 0
 grpc_port: 9080
 http_port: 8080
 
-# Alpha configuration
+# Alpha configurations
 alpha:
   lru_mb: 2048
 
