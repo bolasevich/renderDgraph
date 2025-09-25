@@ -10,8 +10,6 @@ http_port: 8080
 
 # Alpha configurations
 alpha:
-  p: /dgraph/data/p
-  w: /dgraph/data/w
   lru_mb: 2048
 
 # Security settings (adjust as needed)
@@ -23,8 +21,6 @@ v: 2
 
 # Performance tuning for cloud deployments
 badger:
-  dir: /dgraph/data/p
-  valuedir: /dgraph/data/w
   compression: snappy
   numgoroutines: 16
 
